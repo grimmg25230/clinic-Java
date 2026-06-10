@@ -43,6 +43,7 @@ public class clinic1101 {
 
                 if ("0".equals(choice)) {
                     System.out.println("退出程式");
+                    System.out.println("感謝使用本系統，再見！");
                     break;
                 
                 } else if ("1".equals(choice)){
