@@ -4,5 +4,23 @@
     "java.project.referencedLibraries": [
         "lib/**/*.jar"
     ],
-    "files.encoding": "cp950"
+    "files.encoding": "cp950",
+    "sqltools.connections": [
+        {
+            "mysqlOptions": {
+                "authProtocol": "default",
+                "enableSsl": "Disabled"
+            },
+            "ssh": "Disabled",
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 3306,
+            "driver": "MySQL",
+            "name": "clinic",
+            "group": "loca;host",
+            "database": "clinic",
+            "username": "root",
+            "password": "84447521"
+        }
+    ]
 }
